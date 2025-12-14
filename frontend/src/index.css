@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans antialiased transition-colors duration-300;
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl shadow-xl;
+  }
+
+  .input-field {
+    @apply w-full bg-white/5 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent transition-all;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-primary font-bold py-3 px-6 rounded-xl hover:bg-accent/90 transition-transform active:scale-95;
+  }
+
+  .metric-chip {
+    @apply flex items-center gap-2 bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 px-4 py-2 rounded-xl text-slate-700 dark:text-gray-300 transition-colors;
+  }
+
+  .metric-value {
+    @apply font-bold text-slate-900 dark:text-white text-lg;
+  }
+
+  .metric-label {
+    @apply text-xs uppercase tracking-wider text-slate-500 dark:text-gray-400 font-semibold;
+  }
+}
