@@ -1,3 +1,8 @@
+🎥 **Project Demo Video (2 minutes)**  
+👉 https://drive.google.com/file/d/1MIXaLeGi_VEdCPjeYtxHAJ7i8dXdw168/view?usp=drive_link
+
+---
+
 # RepoTrace 🚀
 
 RepoTrace is a repository analysis tool that evaluates GitHub repositories and provides
